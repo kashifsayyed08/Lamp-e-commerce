@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="contactStyle.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="sideStyle.css">
+    <title>Contact Us - Lamp Emporium</title>
+</head>
+<body>
+    <nav>
+        <img src="images/menu.png" alt="menu" class="menu-img menu-bar" onclick="toggleSidebar()">
+        <img src="images/logo.png" alt="menu" class="logo">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="products.html">Products</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <!-- <button type="button" onclick="toggleBtn()" id="btn"><span></span></button> -->
+    </nav>
+    <aside class="sidebar">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="products.html">Products</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </aside>
+    <header>
+        <h1>Contact Habibi Lamp Emporium</h1>
+    </header>
+
+    <section class="contact-form">
+        <form>
+            <label for="name">Your Name:</label>
+            <input type="text" id="name" name="name" placeholder="Enter Your Name" required>
+
+            <label for="email">Your Email:</label>
+            <input type="email" id="email" name="email" placeholder="Enter Your Email Id" required>
+
+            <label for="message">Your Message:</label>
+            <textarea id="message" name="message" rows="4" placeholder="Say Something :)" required></textarea>
+
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+    <script src="sideScript.js"></script>
+</body>
+</html>

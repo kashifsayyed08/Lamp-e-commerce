@@ -1,0 +1,40 @@
+:root {
+    --color: rgba(0, 0, 0, 0.859);
+    --textcolor: #fff;
+    --butback: #efefef;
+    --butspan: #999;
+    --tcbg: #00986f;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: var(--color);
+    color: var(--color);
+}
+
+header {
+
+    /* background-color: var(--color); */
+    color: var(--textcolor);
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.about-content {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.about-content .first::first-letter{
+    color: var(--tcbg);
+    font-size: 2rem;
+
+}
+.about-content h2{
+    color: var(--tcbg);
+}
